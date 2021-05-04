@@ -39,7 +39,7 @@ az policy definition create --name tagging-policy --display-name "tagging-policy
 ```bash
 az policy assignment create --name 'tagging-policy-assignment' --display-name "tagging-policy assignment" --scope /subscriptions/27bd7560-82af-4c98-9e73-be3447167035 --policy /subscriptions/27bd7560-82af-4c98-9e73-be3447167035/providers/Microsoft.Authorization/policyDefinitions/tagging-policy
 ```
-
+![policy assignment output](./images/policyassignment.png)
 
 ###  Deploy the Packer Image
 
