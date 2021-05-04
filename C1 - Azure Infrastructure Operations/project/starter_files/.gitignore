@@ -1,2 +1,5 @@
 .DS_Store
 .DS_Store?
+.terraform.*
+terraform.tfstate*
+terraform-provider-azurerm_v2.57.0_x5.exe
