@@ -28,5 +28,6 @@ variable "admin_password" {
 }
 
 variable "number_of_vm" {
-  description = "Number of vm that you want to create"
+    description = "Number of vm that you want to create"
+    default     = 2
 }
